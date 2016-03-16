@@ -43,6 +43,7 @@ namespace spec
 
 		TEST_METHOD(ComplexStringwithSymbols)
 		{
+			
 			char str[] = "abcdefgh.,812639";
 			int i = 0;
 			int j = 2;
