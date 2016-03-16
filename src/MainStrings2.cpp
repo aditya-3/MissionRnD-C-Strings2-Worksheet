@@ -10,6 +10,7 @@ Objectives of C-Strings-2 Lesson:
 ->New ways of Handling Strings
 
 */
+#include "FunctionHeadersStrings2.h"
 
 int main(){
 	
