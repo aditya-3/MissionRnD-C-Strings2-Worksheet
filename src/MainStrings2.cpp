@@ -11,10 +11,11 @@ Objectives of C-Strings-2 Lesson:
 
 */
 #include "FunctionHeadersStrings2.h"
+#include<stdio.h>
 
 int main(){
 	
-	
+	int si, sc=7, temp_c=0;
 	//Test Consonants_Vowels
 
 	//Test getFrequencyofWord
@@ -22,6 +23,11 @@ int main(){
 	//Test getSubstring
 
 	//Test getLastWord
-
+	char sentences[][100] = { "abababa", "he he", "ab cd ab cd", "    ", "1234 aaaaaaa", "asd324", "yzqwer 23425", "a" };
+	char words[][100] = { "ab", "he", "ab cd", " ", "aa", "asd324", "x", "a" };
+	for (si = 0; si < sc; si++){
+		int temp_c = count_word_in_str_way_1(sentences[si], words[si]);
+		printf("%d  ", temp_c);
+	}
 	return 0;
 }
